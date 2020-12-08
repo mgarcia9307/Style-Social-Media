@@ -1,0 +1,129 @@
+/*
+the * selector select all the elements on the page, box sizing: border-box makes sure we account for the border when calculating the width
+*/
+*{
+    box-sizing: border=box;
+}
+body {
+    background-color: lightgray;
+}
+
+header {
+    
+    height: 400px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bigBlueBox {
+    background-color: blue;
+    height: 88%;
+    border: 1px solid black;
+}
+
+#linksArea {
+    background-color: wheat;
+    height: 12%;
+    border: 1px solid darkgray;
+}
+
+#linkSection {
+    position: relative;
+    top: 1px;
+    left: 250px;
+}
+#linkSection2 {
+    position: fixed;
+    top: 365px;
+    left: 925px;
+}
+
+#linkSection3 {
+    position: fixed;
+    top: 365px;
+    left: 1005px;
+}
+
+#linkSection4 {
+    position: fixed;
+    top: 365px;
+    left: 1095px;
+}
+
+#linkSection5 {
+    position: fixed;
+    top: 365px;
+    left: 1155px;
+}
+
+#photoBox {
+    position: relative;
+    top: 180px;
+    left: 20px;
+    background-color: blue;
+    border: 1px solid darkgray;
+    width: 200px;
+    height: 200px;
+}
+
+#profileStyle {
+    color: white;
+    position: relative;
+    left: 230px;
+    top: 30px;
+}
+
+#profileStyleSub {
+    color: white;
+    position: relative;
+    left: 230px;
+    top: 30px;
+}
+
+Main {
+    background-color: white;
+    height: 100px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+#leftColumn {
+    float: left;
+    width: 328px;
+    height: 65%;
+    border: 1px solid darkgray;
+}
+
+h3 {
+    color: black;
+    position: relative;
+    left: 130px;
+}
+
+#rightColumn {
+    float: right;
+    width: 512px;
+    height: 65%;
+    border: 1px solid darkgray;
+}
+
+#pictureBox {
+        position: fixed;
+        top: 415px;
+        left: 925px;
+        background-color: lightblue;
+        border: 1px solid black;
+        width: 50px;
+        height: 50px;
+}
+
+#styleTitle2 {
+        color: black;
+        position: relative;
+        left: 180px;
+        top: 1px;
+}
